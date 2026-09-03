@@ -1,0 +1,78 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Market Structure Calendar//2026-09//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:2026年9月 市场结构（调仓/结算）
+X-WR-TIMEZONE:Asia/Shanghai
+X-WR-CALDESC:2026年9月指数调仓日与衍生品结算日。建议配色
+ 区别于宏观日历。
+BEGIN:VEVENT
+UID:20260918-quadwitching@mkt-struct
+DTSTAMP:20260903T000000Z
+DTSTART:20260918T133000Z
+DTEND:20260918T200000Z
+SUMMARY:★★【美】三巫/四巫日 衍生品集中到期
+DESCRIPTION:9月第三个周五。股指期货、股指期权、个股期
+ 权同日到期结算。\n美东 09:30-16:00 ET / 北京 21:30-次日04:0
+ 0。\n注意：本日同时是五个指数族的调仓执行日，尾盘
+ 成交量通常为平日数倍，为全月流动性与波动最集中的
+ 时点。
+BEGIN:VALARM
+TRIGGER:-P2D
+ACTION:DISPLAY
+DESCRIPTION:2天后为四巫日+集中调仓日
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20260918-spdj@mkt-struct
+DTSTAMP:20260903T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:★【调仓】S&P 500 / MidCap 400 / SmallCap 600
+DESCRIPTION:标普道琼斯季度再平衡。\n执行：9/18 美股收盘
+ 集中撮合；生效：9/21（周一）开盘前。\n成分股变更一
+ 般提前约一周公告。
+END:VEVENT
+BEGIN:VEVENT
+UID:20260918-ndx@mkt-struct
+DTSTAMP:20260903T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:★【调仓】Nasdaq-100
+DESCRIPTION:纳斯达克季度权重再平衡。\n执行：9/18 收盘；
+ 生效：9/21 开盘前。\n注意：年度成分股重构在12月，9月
+ 为权重/份额调整。
+END:VEVENT
+BEGIN:VEVENT
+UID:20260918-russell@mkt-struct
+DTSTAMP:20260903T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:【调仓】Russell 1000 / 2000 / 3000
+DESCRIPTION:FTSE Russell 季度调整，主要为新上市公司（IPO）
+ 增补。\n执行：9/18 收盘后生效。\n量级说明：Russell 年
+ 度重构在6月，规模远大于9月的季度增补。
+END:VEVENT
+BEGIN:VEVENT
+UID:20260918-ftsegeis@mkt-struct
+DTSTAMP:20260903T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:★【调仓】FTSE Global / All-World / GEIS
+DESCRIPTION:富时全球股票指数系列半年度审议（3月与9月）
+ 。\n执行：9/18 各市场收盘后生效。\n量级说明：半年度
+ 审议规模显著大于季度调整，涉及全球多市场被动资金
+ 。
+END:VEVENT
+BEGIN:VEVENT
+UID:20260918-ftsechina@mkt-struct
+DTSTAMP:20260903T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:【调仓】FTSE China A50 / China 50
+DESCRIPTION:富时中国A50、中国50指数季度审议。\n执行：9/18 
+ 收盘后生效，下一交易日起按新成分运行。\n新加坡交
+ 易所A50期货相应换月/调整。
+END:VEVENT
+END:VCALENDAR
