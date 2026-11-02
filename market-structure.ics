@@ -1,34 +1,63 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Market Structure Calendar//2026-10//CN
+PRODID:-//Market Structure Calendar//2026-11//CN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:2026年10月 市场结构（调仓/结算）
+X-WR-CALNAME:2026年11月 市场结构（调仓/结算）
 X-WR-TIMEZONE:Asia/Shanghai
-X-WR-CALDESC:2026年10月指数调仓日与衍生品结算日。建议配
- 色区别于宏观日历。
+X-WR-CALDESC:2026年11月指数调仓日与衍生品结算日。非季末
+ 月，无四巫日，故本月不设提醒。建议配色区别于宏观
+ 日历。
 BEGIN:VEVENT
-UID:20261016-opex@mkt-struct
-DTSTAMP:20261009T000000Z
-DTSTART:20261016T133000Z
-DTEND:20261016T200000Z
-SUMMARY:【美】月度期权到期（第三个周五）
-DESCRIPTION:10月第三个周五。美股个股与指数期权月度到期
- 结算。\n美东 09:30-16:00 ET / 北京 21:30-次日04:00。\n注意：1
- 0月不是季末月，无股指期货到期（非四巫日），也没有
- 指数调仓；本月市场结构层面较轻。
+UID:20261111-msci-ann@mkt-struct
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:【调仓】MSCI 11月指数审议结果公布
+DESCRIPTION:MSCI官方日程：公布日 11/11（伦敦/纽约收盘后发
+ 布，北京时间约 11/12 早间可见）。\n生效日 12/1，即 11/30
+  收盘执行。
 END:VEVENT
 BEGIN:VEVENT
-UID:20261030-russell-rank@mkt-struct
-DTSTAMP:20261009T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:【调仓】Russell 美国指数12月重构 · 排名日
-DESCRIPTION:FTSE Russell 官方时间表：10/30（周五）为排名日（
- Rank Day），以当日收盘数据确定成分资格。\n后续：11/13 
- 美股收盘后公布预览名单；11/16–11/27 查询期；11/30 起进
- 入锁定期；12/11 收盘后执行重构。\n说明：本日仅确定资
- 格，无资金调整。今年起 Russell 美国指数改为6月/12月半
- 年度重构，12月重构是30余年来首次。
+UID:20261120-opex@mkt-struct
+DTSTAMP:20261102T000000Z
+DTSTART:20261120T143000Z
+DTEND:20261120T210000Z
+SUMMARY:【美】月度期权到期（第三个周五）
+DESCRIPTION:11月第三个周五，个股及指数期权月度到期。\n
+ 美东 09:30-16:00 ET / 北京 22:30-次日05:00。\n非季末月，无股
+ 指期货交割。
+END:VEVENT
+BEGIN:VEVENT
+UID:20261120-hsi-ann@mkt-struct
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:【调仓】恒生指数系列季度检讨结果公布
+DESCRIPTION:恒指公司已宣布：11/20 公布截至2026/9/30的季度检
+ 讨结果（港股收市后）。\n按惯例变动于 12/4（周五）收
+ 市后实施、12/7 起生效，以正式公告为准。
+END:VEVENT
+BEGIN:VEVENT
+UID:20261127-csi-ann@mkt-struct
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:【调仓】沪深300 / 中证500 / 1000 / A500 等定期调整公
+ 告（预计）
+DESCRIPTION:中证指数半年度定期调整，按往年惯例于11月最
+ 后一个周五盘后公告，12月第二个周五（12/11）收市后生
+ 效。\n本年度公告日未经官方确认。
+END:VEVENT
+BEGIN:VEVENT
+UID:20261130-msci-eff@mkt-struct
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:★【调仓】MSCI 11月审议执行日
+DESCRIPTION:11/30（周一）各市场收盘执行，12/1 生效。\nA股/
+ 港股于 11/30 尾盘集合竞价撮合；美股 16:00 ET 收盘（北京
+  12/1 05:00）。\n11月为MSCI规模较大的审议之一，涉及MSCI中
+ 国/新兴市场被动资金。
 END:VEVENT
 END:VCALENDAR

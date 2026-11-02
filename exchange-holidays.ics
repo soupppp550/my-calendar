@@ -1,101 +1,69 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Exchange Holiday Calendar//2026-10//CN
+PRODID:-//Exchange Holiday Calendar//2026-11//CN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:2026年10月 交易所假期
+X-WR-CALNAME:2026年11月 交易所假期
 X-WR-TIMEZONE:Asia/Shanghai
-X-WR-CALDESC:2026年10月全球主要交易所休市安排。全部为全
+X-WR-CALDESC:2026年11月全球主要交易所休市安排。全部为全
  天事件、无提醒，建议设为浅灰等低饱和配色，作为背
- 景信息。
+ 景信息。本月A股、港股无休市，沪深港通南北向正常。
 BEGIN:VEVENT
-UID:20261001-cn-nationalday@exch-hol
-DTSTAMP:20261009T000000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261008
-SUMMARY:【中】沪深北交易所休市 — 国庆节
-DESCRIPTION:10月1日（周四）至10月7日（周三）休市，10月8日
- （周四）起照常开市；10月10日（周六）为周末休市。\n
- 沪深港通：10月1日至7日南北向均暂停，10月8日起恢复。\
- n来源：沪深北交易所2026年中秋节、国庆节休市安排（9
- 月17日公告）及沪深交易所港股通交易日安排。
+UID:20261103-jp-bunka@exch-hol
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:【日】JPX / TSE 休市 — 文化之日
+DESCRIPTION:文化の日。现货休市；大阪交易所部分衍生品提
+ 供祝日交易。\n同日为美国中期选举投票日。
 END:VEVENT
 BEGIN:VEVENT
-UID:20261001-hk-nationalday@exch-hol
-DTSTAMP:20261009T000000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:【港】HKEX 休市 — 国庆日
-DESCRIPTION:香港特区公众假期（国庆日），港交所全天休市
- 。\n10/2 起港交所恢复交易，但A股仍休市至10/7，沪深港
- 通继续暂停。
+UID:20261111-us-veterans@exch-hol
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:【美】美债市场休市 — 退伍军人节（美股正常）
+DESCRIPTION:SIFMA建议美元固收市场全天休市；NYSE / Nasdaq 正
+ 常交易。\n美债现货流动性缺失，当日美股缺少利率端定
+ 价参考。
 END:VEVENT
 BEGIN:VEVENT
-UID:20261002-hk-connect@exch-hol
-DTSTAMP:20261009T000000Z
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261008
-SUMMARY:【港】HKEX 正常开市 — 沪深港通南北向暂停（10/2
- 、10/5–10/7）
-DESCRIPTION:A股因国庆休市（10/1–10/7），北向（陆股通）与
- 南向（港股通）均不提供服务，但港交所自身在 10/2、10/
- 5、10/6、10/7 正常交易（10/3–10/4 为周末）。\n港股期间
- 缺少南向资金，流动性结构与平日不同；10/8 起恢复。
+UID:20261119-kr-suneung@exch-hol
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:【韩】KRX 延迟1小时开盘 — 高考（修能）日
+DESCRIPTION:2027学年度修能考试 11/19 举行（教育部已确认）
+ 。\n按历年惯例，KRX当日开收盘各推迟1小时（10:00-16:30 KS
+ T / 北京 09:00-15:30），外汇市场同样10:00开盘。\n本年度KRX
+ 正式公告未查到，以交易所公告为准。
 END:VEVENT
 BEGIN:VEVENT
-UID:20261005-kr-foundation@exch-hol
-DTSTAMP:20261009T000000Z
-DTSTART;VALUE=DATE:20261005
-DTEND;VALUE=DATE:20261006
-SUMMARY:【韩】KRX / KOSPI / KOSDAQ 休市 — 开天节补休
-DESCRIPTION:开天节（National Foundation Day，10/3 周六）顺延至 1
- 0/5（周一）补休。全市场休市。
+UID:20261123-jp-kinro@exch-hol
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:【日】JPX / TSE 休市 — 勤劳感谢日
+DESCRIPTION:勤労感謝の日。现货休市；部分衍生品祝日交易
+ 。
 END:VEVENT
 BEGIN:VEVENT
-UID:20261008-cn-reopen@exch-hol
-DTSTAMP:20261009T000000Z
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261009
-SUMMARY:【中】国庆长假后首个交易日（A股复市）
-DESCRIPTION:沪深北交易所自10月8日起照常开市，港股通同日
- 恢复。\n假期期间的外盘信息（美国9月非农10/2、ISM、10/6
-  前后的海外行情等）在复市首日集中反映。
+UID:20261126-us-thanks@exch-hol
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:【美】NYSE / Nasdaq 休市 — 感恩节
+DESCRIPTION:Thanksgiving Day（美国当地日期）。美股、美债全
+ 天休市。
 END:VEVENT
 BEGIN:VEVENT
-UID:20261009-kr-hangul@exch-hol
-DTSTAMP:20261009T000000Z
-DTSTART;VALUE=DATE:20261009
-DTEND;VALUE=DATE:20261010
-SUMMARY:【韩】KRX / KOSPI / KOSDAQ 休市 — 韩文日
-DESCRIPTION:韩文日（Hangul Day，10/9 周五）。全市场休市。
-END:VEVENT
-BEGIN:VEVENT
-UID:20261012-jp-sports@exch-hol
-DTSTAMP:20261009T000000Z
-DTSTART;VALUE=DATE:20261012
-DTEND;VALUE=DATE:20261013
-SUMMARY:【日】JPX / TSE 休市 — 体育日
-DESCRIPTION:体育の日（10月第二个周一）。现货休市。
-END:VEVENT
-BEGIN:VEVENT
-UID:20261012-us-columbus@exch-hol
-DTSTAMP:20261009T000000Z
-DTSTART;VALUE=DATE:20261012
-DTEND;VALUE=DATE:20261013
-SUMMARY:【美】美股正常开市 — 美债市场休市（哥伦布日
- ）
-DESCRIPTION:Columbus Day。NYSE / Nasdaq 照常交易；美联储与联邦
- 银行休息，美债市场按惯例休市（SIFMA 建议），联邦统
- 计机构当日无数据发布。
-END:VEVENT
-BEGIN:VEVENT
-UID:20261019-hk-chungyeung@exch-hol
-DTSTAMP:20261009T000000Z
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261020
-SUMMARY:【港】HKEX 休市 — 重阳节翌日（沪深港通暂停）
-DESCRIPTION:重阳节（10/18 周日）翌日补假，港交所全天休市
- 。\nA股正常交易，但当日为非港股通交易日，沪深港通
- 南北向均不开通；10/20 起恢复。
+UID:20261127-us-earlyclose@exch-hol
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:【美】美股提前收盘 13:00 ET
+DESCRIPTION:感恩节次日。美股 13:00 ET 收盘，对应北京时间 1
+ 1/28 02:00；美债（SIFMA）14:00 ET 提前收盘（北京 11/28 03:00
+ ）。\n全年成交最清淡的交易日之一。
 END:VEVENT
 END:VCALENDAR
